@@ -1,8 +1,8 @@
 class Person {
     constructor(name, email, age) {
-        this._name = name;
-        this._email = email;
-        this._age = age;
+        this.name = name;
+        this.email = email;
+        this.age = age;
     }
     getPerson() {
         var personInfo = `Name: ${this.name}, email: ${this.email}, age: ${this.age}`;
